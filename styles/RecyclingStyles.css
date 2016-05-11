@@ -1,0 +1,116 @@
+
+@font-face {
+	font-family: aLoveofThunder;
+	src: url(fonts/aLoveofThunder.ttf);
+}
+
+.recycle{
+	text-indent: 129px;
+	font-family: aLoveofThunder;
+	font-size: 40pt;
+	color: white;
+}
+
+@font-face{
+	font-family: ThirstyRoughRegOne;
+	src: url(fonts/ThirstyRoughRegOne.otf);
+}
+
+.thirsty{
+	font-family: ThirstyRoughRegOne;
+	font-size: 22px;
+}
+
+/*@font-face {
+	font-family: cavierDreamsBold;
+	src: url(fonts/cavierDreamsBold.ttf);
+}*/
+
+.recycle2{
+	font-family: cavierDreamsBold;
+	font-size: 20px;
+	font-weight: normal;
+	color: white;
+	text-indent: 3px;
+}
+
+#recyclecontainer{
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.jar{
+	position: absolute;
+	top: 35px;
+
+}
+
+.lamp{
+	position: absolute;
+	/*top: -130px;*/
+	top: -100px;
+	left: 56px;
+
+}
+
+.lighton{
+	display: none;
+	position: absolute;
+	top: 0px;
+}
+
+.lamp:hover .lighton{
+	display: block;
+}
+
+
+.description{
+	font-family: cavierDreamsBold;
+	font-size: 20px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	padding-top: 15px;
+	position: relative;
+	top:-60px;
+}
+
+.note{
+	font-family: cavierDreamsBold;
+	font-size: 15px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -60px;
+}
+
+.lampDescription{
+	font-family: cavierDreamsBold;
+	font-size: 20px;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.btn3{
+	font-family: cavierDreamsBold;
+	font-size: 15px;
+	position: absolute;
+	top: 640px;
+	width: 150px;
+	height: 40px;
+	color: red;
+	text-align: center;
+	left: 50%;
+   	/*margin-right: -50%;*/
+	transform: translate(-50%, -50%)
+}
+
+.btn3:hover{
+	text-decoration: none;
+}
+
+	

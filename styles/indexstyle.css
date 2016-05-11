@@ -1,0 +1,156 @@
+
+body{
+  height:auto;
+  margin:0;
+  background: -webkit-gradient(
+  linear,
+  left bottom,
+  left top,
+  color-stop(0, rgb(38,101,79)),
+  color-stop(0.30, rgb(75,97,60))
+  );
+  z-index: 0;
+}
+
+
+ a{
+	color:white;
+	text-decoration: none
+}
+
+ a:hover{
+	color:green;
+	text-decoration: none
+	cursor: pointer;
+}
+
+
+
+
+#light a{
+	color:#337ab7;
+	text-decoration: none
+}
+
+#light a:hover{
+	color:#337ab7;
+	text-decoration: none
+}
+
+.inner {
+	width:1056px;
+	margin:0 auto;
+	vertical-align: baseline;
+}
+
+
+.logo{
+	position:absolute;
+	top: 8%;
+	left: 50%;
+   	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+li{
+	font-family:'Conv_Caviar_Dreams_Bold',Sans-Serif;
+	color:white;
+	font-size: 14pt;
+	letter-spacing: 2px;
+	list-style: none;
+	text-decoration: none;
+	display: inline-block;
+	min-width: 10%;
+	text-align:center;
+	padding-top: 53px;
+}
+
+li:hover{
+	color:green;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li a:hover{
+	color:green;
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+
+.left{
+	float:left;
+	padding-left: 140px;
+}
+
+.right{
+	float:right;
+	padding-right: 140px;
+}
+
+.main {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.panelx{
+	background-color: transparent;
+	position: relative;
+	
+    z-index: 10;
+    
+}
+
+
+img{
+	position:relative;
+
+
+}
+
+#scroll1 {
+	clear:both;
+}
+
+#scroll1:hover{
+	cursor: pointer;
+}
+
+#scroll2 {
+	clear:both;
+}
+
+#scroll2:hover{
+	cursor: pointer;
+}
+
+#scroll3 {
+	clear:both;
+}
+
+#scroll3:hover{
+	cursor: pointer;
+}
+
+.back{
+	position:absolute;
+	top: 25%;
+	left: 50%;
+   	margin-right: -50%;
+	transform: translate(-50%, -50%)
+}
+
+.back:hover{
+	position:absolute;
+	top: 25%;
+	left: 50%;
+   	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	-webkit-filter: drop-shadow(3px 3px 3px #111);
+    filter:drop-shadow(3px 3px 3px #111); 
+    cursor: pointer;
+}

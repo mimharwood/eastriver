@@ -1,0 +1,301 @@
+/*@font-face {
+  font-family: 'aLoveofThunder';
+  src: url('fonts/aLoveofThunder.ttf');
+}*/
+
+
+
+h2 {
+ font-family: 'Conv_Caviar_Dreams_Bold';
+ font-size: 13pt;
+ color: white;
+ position: absolute;
+ top: 70px;
+ left: 128px;
+}
+
+.source h3 {
+  font-family: 'aLoveofThunder';
+  font-size: 20pt;
+  color: black;
+  letter-spacing: 1.5pt;
+  position: absolute;
+  top: -07px;
+  left: 20px;
+ width: 370px;
+
+}
+
+h4 {
+  font-family: 'aLoveofThunder';
+  font-size: 20pt;
+  color: black;
+  letter-spacing: 1.5pt;
+  position: absolute;
+  top: -20px;
+  left: 120px;
+
+}
+
+h5 {
+  font-family: 'Conv_Caviar_Dreams_Bold';
+  font-size: 14pt;
+  color: white;
+  letter-spacing: 1.5pt;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  text-align: center;
+  line-height: 30px;
+
+
+}
+
+
+.container {
+  width: 300px;
+  height: 100%;
+
+
+}
+
+.pulse-button1 {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 53%;
+  left: 340px;
+  margin-left: -10px;
+  margin-top: -190px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0 0 #f0f0f0, 0 0 0 0 rgba(255, 255, 0, 0.7);
+  border-radius: 100%;
+  v-align: middle;
+  background: yellow;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
+}
+
+.pulse-button2 {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 245px;
+  left: 320px;
+  margin-left: -10px;
+  margin-top: -35px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0 0 #f0f0f0, 0 0 0 0 rgba(255, 255, 0, 0.7);
+  border-radius: 100%;
+  v-align: middle;
+  background: yellow;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
+}
+
+.pulse-button3 {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 360px;
+  left: 285px;
+  margin-left: -10px;
+  margin-top: -20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0 0 #f0f0f0, 0 0 0 0 rgba(255, 255, 0, 0.7);
+  border-radius: 100%;
+  v-align: middle;
+  background: yellow;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
+}
+
+.pulse-button4 {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 510px;
+  left: 390px;
+  margin-left: -10px;
+  margin-top: -20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0 0 #f0f0f0, 0 0 0 0 rgba(255, 255, 0, 0.7);
+  border-radius: 100%;
+  v-align: middle;
+  background: yellow;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
+}
+
+.pulse-button5 {
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  top: 700px;
+  left: 310px;
+  margin-left: -10px;
+  margin-top: -20px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  padding-bottom: 8px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  box-shadow: 0 0 0 0 #f0f0f0, 0 0 0 0 rgba(255, 255, 0, 0.7);
+  border-radius: 100%;
+  v-align: middle;
+  background: yellow;
+  cursor: pointer;
+  transform: translate3d(0, 0, 0);
+  animation: pulse 1.25s infinite cubic-bezier(0.66, 0.33, 0, 1);
+}
+
+#queenswater {
+  display: none;
+  position: absolute;
+  top: -90px;
+  left: -660px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity:0.5;
+}
+.pulse-button1:hover #queenswater {
+  display: block;
+}
+
+.container:hover h5 {
+  display: none;
+}
+
+#bronx {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: -650px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity:0.5;
+}
+.pulse-button2:hover #bronx {
+  display: block;
+}
+
+#ues {
+  display: none;
+  position: absolute;
+  top: -70px;
+  left: -605px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity:0.5;
+  font-family: 'Conv_Caviar_Dreams_Bold',Sans-Serif;
+  font-size: 16pt;
+}
+.pulse-button3:hover #ues {
+  display: block;
+}
+
+#ncreek {
+  display: none;
+  position: absolute;
+  top: -200px;
+  left: -700px;
+  font-family: 'Conv_Caviar_Dreams_Bold',Sans-Serif;
+  font-size: 16pt;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity:0.5;
+}
+.pulse-button4:hover #ncreek {
+  display: block;
+}
+
+#bkbridge {
+  display: none;
+  position: absolute;
+  top: -390px;
+  left: -630px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity:0.5;
+}
+
+.source p {
+ font-family: 'Conv_Caviar_Dreams_Bold';
+ font-size: 13pt;
+ color: black;
+ position: absolute;
+ top: 50px;
+ left: 15px;
+ width: 370px;
+
+}
+
+.pulse-button5:hover #bkbridge {
+  display: block;
+}
+
+
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 12px transparent, 0 0 0 24px rgba(255, 255, 0, 0);
+  }
+}
+
+.map {
+   position: absolute;
+  top: 20%;
+  left: 50%;
+  margin-left: -20px;
+  margin-top: -05px;
+}
